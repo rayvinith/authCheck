@@ -1,6 +1,6 @@
 # MERN Stack Authentication System
 
-This project is a MERN stack application that provides user authentication functionalities including login, registration, and access control for both admin and user roles. 
+This project is a MERN stack application that provides user authentication functionalities including login and registration, . 
 
 ## Table of Contents
 
