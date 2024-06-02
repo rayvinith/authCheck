@@ -1,0 +1,24 @@
+//agar data mongodb se cahiye to req.body use krenge 
+agar token se lena ho ya information dusre jagah se to req.header 
+
+practical approach 
+
+ const {email,password}=req.body
+
+ //we have destructure email and password 
+
+ now this emil and pasword will be retreived from our model that we have created 
+
+ so we need to store that accordingly 
+
+
+ practically:
+  const user =  await userModel.findOne({email: email,password:password})
+
+
+  //new user registeration 
+
+    const newUser = new userModel(req.body)
+        await newUser.save()
+
+        
